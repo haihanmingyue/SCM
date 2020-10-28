@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+    <Resource
+        name="jdbc/mysql"
+        auth="Container"
+        type="javax.sql.DataSource"
+        username="root"
+        password="as521968"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        url="jdbc:mysql://127.0.0.1:3306/vvb?serverTimezone=UTC&amp;characterEncoding=utf8&amp;"
+        maxActive="10"
+        maxIdle="5"
+        maxWait="3000"
+    />
+
+</Context>
